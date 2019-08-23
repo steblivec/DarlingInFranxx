@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-right: 100px;
+  text-align: center;
+  color: #ffffff;
+}
+div#firstpage{
+  background-image: url(../img/memphis-mini-dark.png);
+  height: 2000px;
+  padding: 1px 0;
+}
+
+/* girl002 */
+section#main {
+  margin-top:50px;
+  height: 500px;
+  background-image: url(../img/002.png);
+  background-position: top center;
+  -webkit-background-size: 600px;
+  background-size: 800px;
+  background-repeat: no-repeat;
+  transition: background-size 2s
+}
+section#main:hover{
+  background-size: 1000px;
+}
+div#fon002{
+  height: 500px;
+  background-image: url(../img/002fon.jpg);
+  background-position: top center;
+  background-size: 1000px;
+  background-repeat: repeat;
+}
+h1#m002{
+  font-size: 50px;
+  color: #ffff;
+}
+/* man016 */
+div#fon016{
+  height: 500px;
+  background-image: url(../img/016fon.jpg);
+  background-position: top center;
+  background-size: 1000px;
+  background-repeat: repeat;
+}
+section#main2 {
+  margin-top:70px;
+  height: 500px;
+  background-image: url(../img/016.png);
+  background-position: top center;
+  -webkit-background-size: 600px;
+  background-size: 500px;
+  background-repeat: no-repeat;
+  transition: background-size 2s
+}
+section#main2:hover{
+  background-size: 700px;
+}
+h1#m016{
+  font-size: 50px;
+  color: #ffff;
+}
+/* kissing */
+section#main3 {
+  margin-top:70px;
+  height: 500px;
+  background-image: url(../img/kiss.jpg);
+  background-position: top center;
+  -webkit-background-size: 600px;
+  background-size: 500px;
+  background-repeat: no-repeat;
+  transition: background-size 2s, transform 3s, margin-right 2s;
+}
+section#main3:hover{
+  transform: rotate(15deg);
+  background-size: 550px;
+  margin-right: 100px;
+}
